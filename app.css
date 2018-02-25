@@ -1,0 +1,79 @@
+img[src] {
+  height: 50px;
+  width: 50px;
+}
+
+body {
+  height: 100%;
+  font-size: .9em;
+  font-family: Helvetica;
+}
+
+button {
+  font-size: 1.1em;
+  margin-bottom: 4px;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.result-table {
+  width: 95%;
+  margin: 1em auto;
+}
+
+.row-container {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row  wrap;
+  width: 100%;
+  background: #f1f8ff;
+  align-items: center;
+}
+
+.header {
+  background-color: #767676;
+  color: white;
+}
+
+.header > .cell {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.cell {
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 1em 1em;
+  flex: 1;
+}
+
+.cell-repo {
+  font-weight: bold;
+  font-size: 1.17em;
+  flex: .75;
+}
+
+.cell-author {
+  font-weight: bold;
+  font-size: 1.17em;
+  flex: .5;
+}
+
+.cell-id {
+  flex: .3;
+}
+
+.cell-desc {
+  flex: 1.5;
+}
+
+.cell-stars {
+  flex: .5;
+}
+
+.cell-avatar {
+  flex: .25;
+}
